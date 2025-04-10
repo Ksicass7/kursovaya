@@ -1,0 +1,324 @@
+.root{
+    :global{
+        padding: 80px 0 0 120px;
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            font-size: 64px;
+            font-family: 'IB';
+            line-height: 75px;
+            color: rgba(42, 105, 184, 1);
+            margin-bottom: 33.37px;
+        }
+        .line{
+            margin-top: 40px;
+            max-width: 1200px;
+            height: 3px;
+            background-color: rgba(42, 105, 184, 1);
+        }
+        .row1{
+            display: flex;
+            flex-direction: row;
+            margin-top: 38px;
+            gap: 54px;
+            align-items: center;
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1{
+                    font-size: 59px;
+                    font-family: 'IL';
+                    color: rgba(42, 105, 184, 1);
+                    margin-bottom: 0;
+                }
+                p{
+                    font-size: 15px;
+                    font-family: 'IR';
+                    color: rgba(42, 105, 184, 1);
+                }
+            }
+        }
+        .row2{
+            display: flex;
+            flex-direction: row;
+            margin-top: 38px;
+            gap: 54px;
+            align-items: center;
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1{
+                    font-size: 59px;
+                    font-family: 'IL';
+                    color: rgba(42, 105, 184, 1);
+                    margin-bottom: 0;
+                }
+                p{
+                    font-size: 15px;
+                    font-family: 'IR';
+                    color: rgba(42, 105, 184, 1);
+                }
+            }
+        }
+        .row3{
+            display: flex;
+            flex-direction: row;
+            margin-top: 38px;
+            gap: 54px;
+            align-items: center;
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1{
+                    font-size: 59px;
+                    font-family: 'IL';
+                    color: rgba(42, 105, 184, 1);
+                    margin-bottom: 0;
+                }
+                p{
+                    font-size: 15px;
+                    font-family: 'IR';
+                    color: rgba(42, 105, 184, 1);
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 1326px){
+
+    .root{
+        :global{
+         
+            padding: 80px 60px 44px 60px;
+            
+        }
+    }
+}
+
+
+@media(max-width: 1198px){
+
+    .root{
+        :global{
+         
+            padding: 80px 33px 44px 33px;
+
+        }
+    }
+}
+
+@media(max-width: 1254px){
+    img{
+        max-width: 700px;
+    }
+
+    :global{
+        .row1,
+        .row2,
+        .row3{
+            justify-content: space-between;
+        }
+    }
+}
+
+@media(max-width: 1076px){
+    img{
+        max-width: 600px;
+    }
+
+    .root{
+
+        :global{
+            .row1,
+            .row2,
+            .row3{
+                gap: 54px 12px !important;
+            }
+            
+            h1{
+                font-size: 38px;
+                line-height: 52px;
+                margin-bottom: 4px;
+            }
+        }
+    }
+}
+
+@media(max-width: 976px){
+    img{
+        max-width: 500px;
+    }
+}
+
+@media(max-width: 864px){
+    img{
+        max-width: 479px;
+    }
+}
+
+
+@media(max-width: 834px){
+    :global{
+        padding: 80px 0 0 120px;
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            font-size: 64px;
+            line-height: 75px;
+            margin-bottom: unset;
+        }
+        .line{
+            margin-top: 53px !important;
+            max-width: 1200px;
+            height: 3px;
+        }
+        .row1{
+            display: flex;
+            flex-direction: row;
+            margin-top: 45px !important;
+            gap: 54px;
+            align-items: center;
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1{
+                    font-size: 40px !important;
+            
+                    margin-bottom: 0;
+                }
+                p{
+                    font-size: 15px;
+                }
+            }
+        }
+        .row2{
+            display: flex;
+            flex-direction: row;
+            margin-top: 45px !important;
+            gap: 54px;
+            align-items: center;
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1{
+                    font-size: 40px !important;
+                   
+                    margin-bottom: 0;
+                }
+                p{
+                    font-size: 15px;
+                    font-family: 'IR';
+                    color: rgba(42, 105, 184, 1);
+                }
+            }
+        }
+        .row3{
+            display: flex;
+            flex-direction: row;
+            margin-top: 45px !important;
+            gap: 54px;
+            align-items: center;
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                h1{
+                    font-size: 40px !important;
+                   
+                    margin-bottom: 0;
+                }
+                p{
+                    font-size: 15px;
+                    font-family: 'IR';
+                    color: rgba(42, 105, 184, 1);
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 740px){
+    img{
+        max-width: 378px;
+    }
+}
+
+
+@media(max-width: 648px){
+    img{
+        max-width: 476px;
+    }
+
+    .root{
+
+        :global{
+            padding: 24px 0 23px 23px;
+
+            .row1,
+            .row2,
+            .row3{
+                flex-direction: column !important;
+                align-items: start !important;
+            }
+
+            br{
+                display: none;
+            }
+        }
+}
+}
+
+@media(max-width: 648px){
+    img{
+        max-width: 378px;
+    }
+
+}
+
+@media(max-width: 430px){
+    .root{
+        :global{
+            .line{
+                margin-top: 38px !important;
+                
+            }
+
+            .row1,
+            .row2,
+            .row3{
+                gap: 34px 0 !important;
+            }
+
+           
+            .row1{
+               
+    
+                    h1{
+                        font-size: 26px !important;
+                
+                    }
+                    
+            }
+        }
+    }
+}

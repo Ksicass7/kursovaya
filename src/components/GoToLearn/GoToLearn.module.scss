@@ -1,0 +1,254 @@
+.root{
+    :global{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        padding: 228px 0 0 120px;
+      
+        .content{
+            display: flex;
+            flex-direction: column;
+            margin-top: 32px;
+
+            h1{
+                font-family: 'IB';
+                color: rgba(42, 105, 184, 1);
+                font-size: 60px;
+                line-height: unset;
+                margin-bottom: unset;
+            }
+            p{
+                margin-top: 23px;
+                font-family: 'IR';
+                font-size: 20px;
+                line-height: 26px;
+            }
+            button{
+                display: flex;
+                flex-direction: row;
+                margin-top: 37px;
+                width: 241.65px;
+                height: 54.5px;
+                border: 0;
+                border-radius: 42px;
+                background-color: rgba(42, 105, 184, 1);
+                font-size: 19px;
+                font-family: 'ISB';
+                color: #fff;
+                gap: 10px;
+                align-items: center;
+                justify-content: center;
+            }
+            button:active{
+                box-shadow: 0px 3px 10px rgba(42, 105, 184, 1);
+            }
+        }
+        .learnImg{
+            display: flex;
+            flex-direction: row;
+            max-width: 645px;
+            margin-left: 75px;
+            height: 606px;
+            align-items: center;
+            background-color: rgba(42, 105, 184, 1);
+
+            img{
+                max-width: 645px;
+                height: 435px;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 1412px){
+    .root{
+        :global{
+            justify-content: space-between;
+            .content{
+              
+               
+                h1{
+                    
+                    font-size: 40px;
+                }
+
+                
+            }
+        }
+    }
+}
+
+@media(max-width: 1326px){
+
+    .root{
+        :global{
+         
+            padding: 228px 0 0 60px;
+
+        }
+    }
+}
+
+@media(max-width: 1252px){
+
+    .root{
+        :global{
+            justify-content: space-between;
+            .content{
+              
+                button{
+                    margin-bottom: 35px;
+                    font-size: 16px;
+                    margin-top: 23px;
+                }
+                h1{
+                    
+                    font-size: 38px;
+                }
+
+                
+            }
+            .learnImg{
+             
+                max-width: 432px;
+                margin-left: 24px;
+                max-height: 387px;
+                img{
+                 max-width: 432px;
+                 height: 435px;
+                 max-height: 316px;
+             }
+             }
+        }
+    }
+}
+
+
+
+
+@media(max-width: 1198px){
+
+    .root{
+        :global{
+         
+            padding: 228px 0 0 33px;
+
+        }
+    }
+}
+
+
+@media(max-width: 834px){
+
+    .root{
+        :global{
+            br{
+                display: none;
+            }
+            padding: 228px 0 0 33px;
+
+
+            .content{
+                p{
+                    font-size: 14px;
+                    margin-top: 14px;
+                }
+            }
+
+            .learnImg{
+             
+                max-width: 412px;
+               
+                img{
+                 max-width: 412px;
+                
+             }
+             }
+        }
+    }
+}
+
+@media(max-width: 456px){
+
+    .root{
+        :global{
+         
+            padding: 155px 0;
+
+        }
+    }
+}
+
+
+
+@media(max-width: 760px){
+
+    .root{
+        :global{
+            padding-left: 0;
+            flex-direction: column-reverse;
+            .content{
+                padding-left: 33px;
+            }
+            .learnImg{
+                margin-left: unset;
+                max-width: unset;
+                justify-content: center;
+                max-height: 436px;
+               
+                img{
+                 max-width: unset;
+                 max-height: 387px;
+                width: 100%;
+             }
+             }
+        }
+    }
+}
+
+
+@media(max-width: 430px){
+
+    .root{
+        :global{
+            padding-bottom: 0;
+            .content{
+                padding-top: unset;
+                padding-left: 25px;
+                padding-right: 30px;
+                align-items: center;
+                p{
+                    margin-top: 30px;
+                }
+                    margin-top: 68px;
+
+                button{
+                    margin-bottom:unset;
+                    font-size: 16px;
+                    margin-top: 23px;
+                    max-height: 40px;
+                    margin-bottom: 39px;
+                }
+                h1{
+                    text-align: center;
+                    line-height: 30px !important;
+                    font-size:24px !important;
+                }
+            }
+
+
+            .learnImg{
+              
+                max-height: 302px;
+               
+                img{
+                 max-width: unset;
+                 max-height: 245px;
+                
+             }
+             }
+
+        }
+    }
+}

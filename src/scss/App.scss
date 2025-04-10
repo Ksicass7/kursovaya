@@ -1,0 +1,58 @@
+@import 'fonts';
+@import 'libs/normalize';
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+
+    .bgImg{
+        top: 55px;
+        position: absolute;
+        z-index: -1;
+        max-width: 1385px;
+    }
+}
+
+@media(max-width: 850px){
+
+    .bgImg{
+        top: 185px !important;
+        position: absolute;
+        z-index: -1;
+        max-width: 700px;
+
+        img{
+            max-width: 700px;
+        }
+    }
+}
+
+
+@media(max-width: 760px){
+
+    .bgImg{
+        top: 185px !important;
+        position: absolute;
+        z-index: -1;
+        max-width: 500px;
+
+        img{
+            max-width: 500px;
+        }
+    }
+}
+
+@media(max-width: 555px){
+
+    .bgImg{
+        top: 462px !important;
+        position: absolute;
+        z-index: -1;
+        max-width:399px;
+
+
+        img{
+            max-width:399px;
+        }
+    }
+}

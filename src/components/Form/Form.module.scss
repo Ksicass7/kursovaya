@@ -1,0 +1,318 @@
+.bgimg{
+    display: none;
+}
+.root{
+    :global{
+        margin-top: 80px;
+        max-height: 654px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(238, 236, 255, 1);
+        padding: 60px 0 0 120px;
+        background-image: url('../../assets/img/sect8.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+
+
+        h1{
+            font-size: 60px;
+            font-family: 'IB';
+            letter-spacing: -0.72px;
+            color: rgba(159, 152, 215, 1);
+        }
+        p:nth-of-type(1){
+            margin-top: 30px;
+        }
+        p{
+            margin-top: 20px;
+            font-size: 24px;
+            font-family: 'IL';
+            color: rgba(159, 152, 215, 1);
+        }
+        input{
+            width: 300px;
+            height: 55px;
+            border: 3px solid rgba(159, 152, 215, 1);
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0);
+            display: flex;
+            padding-left: 10px;
+            font-size: 24px;
+            color: rgba(159, 152, 215, 1);
+            word-break: break-all;
+        }
+        input:focus{
+            width: 487px;
+            transition: width 0.3s;
+        }
+        input:nth-of-type(3):focus{
+            width: 487px;
+            height: 100px;
+            transition: width 0.3s;
+        }
+        
+        button{
+            margin-top: 56px;
+            width: 210.65px;
+            height: 54.5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 59px;
+            border: 0;
+            border-radius: 42px;
+            background-color: rgba(159, 152, 215, 1);
+            color: #fff;
+            font-size: 19px;
+            font-family: 'ISB';
+        }
+        button:active{
+            box-shadow: 0px 3px 10px rgba(159, 152, 215, 1);
+        }
+        img{
+            position: absolute;
+            width: 826.81px;
+            height: 661.03px;
+            margin-top: -65px;
+            margin-left: 500px;
+        }
+
+        .ModalMessage{
+            flex-direction: column;
+            align-items: center;
+            max-width: 846px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            max-height: 696px;
+
+            height: 100%;
+            background-color: white;
+            border-radius: 48px;
+            position: fixed;
+            z-index: 9999;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    
+        .modal-content{
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            max-width: 537px;
+        }
+        .modal__text{
+            font-family: 'ISB';
+            color: rgba(117, 190, 172, 1);
+            font-size: 40px;
+        }
+    }
+    
+}
+
+
+@media(max-width: 1326px){
+
+    .root{
+        :global{
+         
+            padding: 60px 60px 44px 60px;
+            
+        }
+    }
+}
+
+
+@media(max-width: 1198px){
+
+    .root{
+        :global{
+         
+            padding: 60px 33px 44px 33px;
+
+        }
+    }
+}
+
+@media(max-width: 1136px){
+    .root{
+
+        :global{
+            background-size: 700px 500px;
+            background-position: right bottom;
+        }
+    }
+}
+
+@media(max-width: 968px){
+    .root{
+
+        :global{
+            background-size: 600px 500px;
+        }
+    }
+}
+
+@media(max-width: 834px){
+    .root{
+
+        :global{
+            background-size: 499px 397px;
+        }
+
+        h1{
+            font-size: 38px;
+            margin-bottom: 12px;
+         
+        }
+
+        input{
+            width: 338px;
+        }
+        p:nth-of-type(1){
+            margin-top:unset;
+            margin-bottom: 10px;
+        }
+
+        p:nth-of-type(2){
+            margin-bottom: 10px;
+        }
+
+        p:nth-of-type(3){
+            margin-bottom: 10px;
+        }
+
+        button{
+            margin-top: 50px;
+            max-height: 35px;
+            font-size: 16px;
+            margin-bottom: unset;
+        }
+    }
+}
+
+@media(max-width: 756px){
+           .bgimg{
+            display: block;
+            max-width: 600px;
+            margin-left: auto;
+        }
+    .root{
+
+        :global{
+           background-image: unset;
+           margin-top: unset;
+
+       
+
+        }
+    }
+}
+
+
+@media(max-width: 608px){
+           .bgimg{
+            display: block;
+            max-width: 500px;
+            margin-left: auto;
+        }
+
+        .root{
+
+            :global{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                form{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: start;
+
+                   
+                }
+
+
+               
+
+                input:focus{
+                    transition: unset;
+                }
+                input:nth-of-type(3):focus{
+                  
+                    transition: unset;
+                }
+            }
+        }
+        }
+
+@media(max-width: 518px){
+    .bgimg{
+        max-width: 450px;
+    }
+
+    .root{
+        :global{
+            input:focus{
+                width: 400px;
+                transition: width 0.3s;
+            }
+            input:nth-of-type(3):focus{
+                width: 400px;
+                height: 100px;
+                transition: width 0.3s;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 479px){
+    .bgimg{
+        max-width: 410px;
+    }
+}
+
+@media(max-width: 430px){
+    .root{
+
+        :global{
+            padding-top: 24px;
+            padding-bottom: 26px;
+
+            svg{
+                width: 150px;
+            }
+            .ModalMessage{
+            
+                max-height: 400px;
+            }
+            p:nth-of-type(1){
+              
+                font-size: 16px;
+            }
+    
+            p:nth-of-type(2){
+                font-size: 16px;
+            }
+    
+            p:nth-of-type(3){
+                font-size: 16px;
+            }
+
+            input{
+                width: 304px;
+                height: 44px;
+            }
+
+            button{
+                margin-top: 30px;
+              
+            }
+        }
+    }
+}

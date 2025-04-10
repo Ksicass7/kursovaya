@@ -1,0 +1,306 @@
+.root{
+    :global{
+        padding: 80px 0 80px 120px;
+        display: flex;
+        flex-direction: column;
+
+        h1{
+            font-size: 60px;
+            font-family: 'IB';
+            color: rgba(42, 105, 184, 1);
+            letter-spacing: -1.2px;
+            line-height: 75px;
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            margin-top: 50px;
+            gap: 18px;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .card1{
+                display: flex;
+                transition: transform 0.3s ease;
+                flex-direction: column;
+                max-width: 388px;
+                max-height: 469px;
+                gap: 20px;
+                border: 0;
+                border-radius: 20px;
+                padding: 47px 26px 86px 26px;
+                background-color: rgba(224, 248, 242, 1);
+
+                img{
+                    width: 310px;
+                    max-height: 208px;
+                }
+                p{
+                    font-size: 24px;
+                    font-family: 'ISB';
+                    line-height: 36px;
+                    text-align: center;
+                    color: rgba(117, 190, 172, 1);
+                }
+
+                
+            }
+
+            .card1:hover{
+                transform: scale(1.1);
+            }
+
+            .card2{
+                transition: transform 0.3s ease;
+                display: flex;
+                flex-direction: column;
+                width: 388px;
+                max-height: 469px;
+                gap: 20px;
+                border: 0;
+                border-radius: 20px;
+                padding: 47px 26px 86px 26px;
+                background-color: rgba(238, 236, 255, 1);
+
+                img{
+                    width: 310px;
+                    max-height: 208px;
+                }
+                p{
+                    font-size: 24px;
+                    font-family: 'ISB';
+                    line-height: 36px;
+                    text-align: center;
+                    color: rgba(159, 152, 215, 1);
+                }
+            }
+
+            .card2:hover{
+                transform: scale(1.1);
+            }
+
+            .card3{
+                transition: transform 0.3s ease;
+                display: flex;
+                flex-direction: column;
+                width: 388px;
+                max-height: 469px;
+                gap: 20px;
+                border: 0;
+                border-radius: 20px;
+                padding: 47px 26px 86px 26px;
+                background-color: rgba(217, 242, 247, 1);
+
+                img{
+                    width: 310px;
+                    max-height: 208px;
+                }
+                p{
+                    font-size: 24px;
+                    font-family: 'ISB';
+                    line-height: 36px;
+                    text-align: center;
+                    color: rgba(95, 191, 210, 1);
+                }
+            }
+            .card3:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+@media(max-width: 1326px){
+
+    .root{
+        :global{
+         
+            padding: 80px 60px 80px 60px;
+            
+        }
+    }
+}
+
+
+@media(max-width: 1198px){
+
+    .root{
+        :global{
+         
+            padding: 39px 33px 28px 33px;
+
+        }
+    }
+}
+
+@media(max-width: 1332px){
+
+    .root{
+        :global{
+         
+            .cards{
+                column-gap: 67px;
+                row-gap: 39px;
+            }
+        }
+    }
+}
+
+@media(max-width: 900px){
+
+    .root{
+        :global{
+         
+          
+            
+            .cards{
+                column-gap: 67px;
+                row-gap: 39px;
+              margin-top: 37px;
+    
+                .card1{
+                    display: flex;
+                    transition: transform 0.3s ease;
+                    flex-direction: column;
+                    max-width: 317px;
+                    gap: 20px;
+                    border: 0;
+                    border-radius: 20px;
+                    padding: 47px 21px 24px 21px;
+                    background-color: rgba(224, 248, 242, 1);
+    
+                    img{
+                        width: 286px;
+                        max-height: 208px;
+                    }
+                    p{
+                        font-size: 18px;
+                        font-family: 'ISB';
+                        line-height: 36px;
+                        text-align: center;
+                        color: rgba(117, 190, 172, 1);
+                    }
+    
+                    
+                }
+    
+               
+    
+                .card2{
+                    transition: transform 0.3s ease;
+                    display: flex;
+                    flex-direction: column;
+                    width: 317px;
+                    gap: 20px;
+                    border: 0;
+                    border-radius: 20px;
+                    padding: 47px 21px 24px 21px;
+                    background-color: rgba(238, 236, 255, 1);
+    
+                    img{
+                        width: 286px;
+                        max-height: 208px;
+                    }
+                    p{
+                        font-size: 18px;
+                        font-family: 'ISB';
+                        line-height: 36px;
+                        text-align: center;
+                        color: rgba(159, 152, 215, 1);
+                    }
+                }
+    
+               
+    
+                .card3{
+                    transition: transform 0.3s ease;
+                    display: flex;
+                    flex-direction: column;
+                    width: 317px;
+                    gap: 20px;
+                    border: 0;
+                    border-radius: 20px;
+                    padding: 47px 21px 24px 21px;
+                    background-color: rgba(217, 242, 247, 1);
+    
+                    img{
+                        width: 286px;
+                        max-height: 208px;
+                    }
+                    p{
+                        font-size: 18px;
+                        font-family: 'ISB';
+                        line-height: 36px;
+                        text-align: center;
+                        color: rgba(95, 191, 210, 1);
+                    }
+                }
+               
+            }
+        }
+    }
+}
+
+
+@media(max-width: 834px){
+
+    .root{
+        :global{
+    h1{
+        font-size: 38px;
+       line-height: 52px;
+    }
+
+}}
+}
+
+@media(max-width: 510px){
+    .root{
+        :global{
+
+            padding-top: 22px;
+            padding-bottom: 51px;
+    h1{
+        font-size: 24px;
+       line-height: 32px;
+    }
+
+    .cards{
+        column-gap: 67px;
+        row-gap: 39px;
+      margin-top: 37px;
+
+
+        .card1{
+          
+            img{
+                width: 276px;
+            }
+           
+            p{
+                font-size: 16px;
+               
+            }
+
+            
+        }
+
+        .card2{
+          
+            img{
+                width: 276px;
+            }
+           
+        }
+
+        .card3{
+          
+            img{
+                width: 276px;
+            }
+           
+        }
+    }
+
+}}
+}

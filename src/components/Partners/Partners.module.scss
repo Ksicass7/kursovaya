@@ -1,0 +1,143 @@
+.root{
+    :global{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        padding: 60px 0 0 120px;
+        height: 640px;
+        background-color: rgba(238, 236, 255, 1);
+
+        h1{
+            font-size: 60px;
+            font-family: 'IB';
+            color: rgba(159, 152, 215, 1);
+        }
+        .cards{
+            max-width: 1200px;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            overflow: auto;
+            scrollbar-color: rgba(159, 152, 215, 1) rgba(238, 236, 255, 1);
+            .card{
+                width: 305px;
+                height: 372px;
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                img{
+                    width: 305px;
+                    height: 249px;
+                    border-radius: 20px;
+                }
+                a{
+                    text-wrap: nowrap;
+                    font-size: 16px;
+                    font-family: 'ISB';
+                    line-height: 20px;
+                    color: rgba(159, 152, 215, 1);
+                    text-align: center;
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: rgb(105, 100, 143);    
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 1326px){
+
+    .root{
+        :global{
+         
+            padding: 60px 0 0 60px;
+            
+        }
+    }
+}
+
+
+@media(max-width: 1198px){
+
+    .root{
+        :global{
+         
+            padding: 60px 0 0 33px;
+
+        }
+    }
+}
+
+
+@media(max-width: 834px){
+
+    .root{
+        :global{
+         
+            h1{
+                font-size: 38px;
+             
+            }
+            .cards{
+               
+                .card{
+                    img{
+                        max-width: 269px;
+                        max-height: 249px;
+                        border-radius: 20px;
+                    }
+                   
+                    a{
+                        font-size: 18px;
+                       
+                    }
+                   
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width: 500px){
+    .root{
+        :global{
+            padding-top: 30px;
+            height: unset;
+            h1{
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+
+            .cards{
+                margin-top: unset;
+
+            }
+
+            .cards{
+                .card{
+                    width: 305px;
+                    height:unset
+                }
+                .card{
+                    img{
+                        max-width: 237px;
+                        max-height: 219px;
+                        border-radius: 20px;
+                    }
+                   
+                    a{
+                        font-size: 16px;
+                       
+                    }
+                   
+                }
+            }
+        }
+    }
+}
